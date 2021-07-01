@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -31,7 +31,7 @@ if (n == '8' && n1 < '9')
 continue;
 putchar(n);
 putchar(n1);
-if (n == '8' && n1 < '9')
+if (n == '8' && n1 == '9')
 break;
 putchar(',');
 putchar(' ');
