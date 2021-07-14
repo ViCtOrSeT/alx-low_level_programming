@@ -14,5 +14,5 @@ k = v % 10;
 if (k < 0)
 k = -k;
 _putchar(k + '0');
-return (a);
+return (k);
 }
