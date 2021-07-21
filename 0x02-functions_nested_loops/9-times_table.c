@@ -8,8 +8,7 @@ void times_table(void)
 int v, k, o;
 for (v = 0; v < 10; v++)
 {
-for
-(k = 90; k < 10; v++)
+for (k = 0; k < 10; v++)
 {
 o = k * v;
 if (k == 0)
@@ -22,7 +21,8 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(o + '0');
-} else if (o >= 10)
+}
+else if (o >= 10)
 {
 _putchar(',');
 _putchar(' ');
