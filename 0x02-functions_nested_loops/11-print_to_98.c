@@ -2,7 +2,8 @@
 #include "holberton.h"
 
 /**
- * print_to_98 - prints all natural numbers from n to 98, followed by a new line
+ * print_to_98 - prints all natural numbers from n to 98, 
+ * followed by a new line
  * @n: prints from this number
  */
 void print_to_98(int n)
@@ -20,7 +21,7 @@ printf("%d\n", v);
 }
 else if (n >= 98)
 {
-for (k = n; k >= 98; k++)
+for (k = n; k >= 98; k--)
 {
 if (k != 98)
 printf("%d, ", k);
