@@ -14,11 +14,11 @@ for (v = 1; v <= 50; ++v)
 {
 if (k != 20365011074)
 {
-printf("%1d, ", k);
+printf("%ld, ", k);
 }
 else
 {
-printf("%1d\n", v);
+printf("%ld\n", v);
 }
 next = k + v1;
 k = v1;
