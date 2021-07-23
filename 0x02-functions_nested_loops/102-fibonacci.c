@@ -18,7 +18,7 @@ printf("%ld, ", k);
 }
 else
 {
-printf("%ld\n", v);
+printf("%ld\n", k);
 }
 next = k + v1;
 k = v1;
